@@ -25,7 +25,7 @@ function draw() {
   translate(0,50);
   strokeWeight(3);
   powa = 3*sin((PI)*(time/300))**2;
-  for(var i=0; i<width+1;i++){
+  for(var i=0; i<width+1;i+=10){
     r = 40*sin(2*PI*(time+i**powa)/cycle);
     point(i,r);
   }
