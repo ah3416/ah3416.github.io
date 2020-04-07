@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Austin's Website</title>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">	
+
+<style>
+</style>
+</head>
+<body>
+
+<h1>Austin Hubbard</h1>
+
+Welcome to the maths page.
+
+</body>
+</html>

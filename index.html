@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Austin's Website</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	var winwidth = window.innerWidth;
+	var unit = "px";
+	var change = winwidth+unit;
+	$("#headanim").attr("width", change);
+	$("#name").attr("style", "width:"+change);
+});
+$(window).resize(function(){
+	var winwidth = window.innerWidth;
+	var unit = "px";
+	var change = winwidth+unit;
+	$("#headanim").attr("width", change);
+	$("#name").attr("style", "width:"+change);
+});
+</script>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">	
+
+<div class="header">
+<img id="name" src="name.svg" style="width:800px">
+</div>
+
+<style> iframe{ border: none; } </style>
+</head>
+<iframe scrolling="no" id="headanim" src="headsketch.html" width="100px",  height="100px"></iframe>
+<img src="me.png" alt="Me on the tube." style="width:176px;height:260px;">
+<h2>Why does this exist?</h2>
+<body style="background-color:#bdcbff;  margin: 0;
+  padding: 0;overflow:hidden;">
+
+
+<p>
+Welcome to my site, here I host blog posts on things I am currently
+ working on/ thinking about, alongside side-projects like drawing/ music/ video.</p>
+ <a href="http://www.hyperlinkcode.com/">Hyperlink Code</a> 	
+</body>
+</html>
