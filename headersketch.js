@@ -4,7 +4,7 @@ var r;
 var powa;
 
 function setup() {
-  createCanvas(2160,100);
+  createCanvas(width,100);
 }
 
 function draw() {

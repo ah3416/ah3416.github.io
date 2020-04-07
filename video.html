@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Video</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	var winwidth = window.innerWidth;
+	var unit = "px";
+	var change = winwidth+unit;
+	$("#headanim").attr("width", change);
+	$("#name").attr("style", "width:"+change);
+});
+$(window).resize(function(){
+	var winwidth = window.innerWidth;
+	var unit = "px";
+	var change = winwidth+unit;
+	$("#headanim").attr("width", change);
+	$("#name").attr("style", "width:"+change);
+});
+</script>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">	
+
+<div class="header">
+<img id="name" src="name.svg" style="width:800px">
+</div>
+
+<style> iframe{ border: none; } </style>
+</head>
+<img src="still.png" style="width:2160px;height:100px">
+
+<a href="index.html">Home</a>
+
+
+<body style="background-color:#bdcbff;  margin: 0;
+  padding: 0;overflow-x:hidden;">
+Fulham graveyard 08/02/2020 on one of the first sunny days of the year.
+<iframe width="640" height="400"
+src="https://www.youtube.com/embed/scxP-43Gv0Y">
+</iframe> 
+
+</body>
+</html>
